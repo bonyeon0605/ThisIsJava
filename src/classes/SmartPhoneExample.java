@@ -5,7 +5,6 @@ public class SmartPhoneExample {
         SmartPhone myPhone = new SmartPhone("구글", "안드로이드");
 
         String strObj = myPhone.toString();
-        System.out.println(strObj);
-        System.out.println(myPhone.toString());
+        myPhone.toString();
     }
 }
